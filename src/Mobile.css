@@ -1,0 +1,10 @@
+@media (max-width: 1000px) {
+  .display-1 {
+    font-size: 3.5rem;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
