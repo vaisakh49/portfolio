@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react';
+import React, { Fragment } from 'react';
 
 class BlogBuilder {
   list = [];
@@ -9,21 +9,21 @@ class BlogBuilder {
     this.description = description;
   }
 
-  addParagraph = (props) => {
-    this.list.push(
-      <p key={this.list.length} className='lead'>
-        {props}
-      </p>
-    );
-    return this;
-  };
-
   addHeading = (props) => {
     this.list.push(
       <Fragment key={this.list.length}>
         <h1 className=''>{props}</h1>
         <hr />
       </Fragment>
+    );
+    return this;
+  };
+
+  addParagraph = (props) => {
+    this.list.push(
+      <p key={this.list.length} className='lead'>
+        {props}
+      </p>
     );
     return this;
   };

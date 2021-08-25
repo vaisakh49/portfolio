@@ -1,13 +1,14 @@
-import React, { useState, useEffect, Profiler } from 'react';
+// import React, { useState, useEffect, Profiler } from 'react';
+import React from 'react';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 // import { useMediaQuery } from 'react-responsive';
-const divStyle = {
-  display: 'flex',
-  flexDirection: 'row',
-  alignItems: 'center',
-};
+// const divStyle = {
+//   display: 'flex',
+//   flexDirection: 'row',
+//   alignItems: 'center',
+// };
 const Skills = () => {
   // const isMob = useMediaQuery({ query: '(max-device-width: 700px)' });
   return (
@@ -98,30 +99,48 @@ const Skills = () => {
                 <div className='row'>
                   <div className='col text-center'>
                     <p className='lead text-center'>Collaboration</p>
-                    <img src='https://img.icons8.com/ios/75/000000/collaboration-female-male.png' />
+                    <img
+                      alt=''
+                      src='https://img.icons8.com/ios/75/000000/collaboration-female-male.png'
+                    />
                   </div>
                   <div className='col text-center'>
                     <p className='lead text-center'>Problem Solving</p>
-                    <img src='https://img.icons8.com/ios/75/000000/critical-thinking.png' />
+                    <img
+                      alt=''
+                      src='https://img.icons8.com/ios/75/000000/critical-thinking.png'
+                    />
                   </div>
                   <div className='col text-center'>
                     <p className='lead text-center'>Positivity</p>
-                    <img src='https://img.icons8.com/ios/75/000000/happy-cloud.png' />
+                    <img
+                      alt=''
+                      src='https://img.icons8.com/ios/75/000000/happy-cloud.png'
+                    />
                   </div>
                 </div>
                 <br />
                 <div className='row'>
                   <div className='col text-center'>
                     <p className='lead text-center'>Goal Setting</p>
-                    <img src='https://img.icons8.com/ios/75/000000/goal.png' />
+                    <img
+                      alt=''
+                      src='https://img.icons8.com/ios/75/000000/goal.png'
+                    />
                   </div>
                   <div className='col text-center'>
                     <p className='lead text-center'>Organization</p>
-                    <img src='https://img.icons8.com/ios/75/000000/to-do.png' />
+                    <img
+                      alt=''
+                      src='https://img.icons8.com/ios/75/000000/to-do.png'
+                    />
                   </div>
                   <div className='col text-center'>
                     <p className='lead text-center'>Empathy</p>
-                    <img src='https://img.icons8.com/ios/75/000000/trust.png' />
+                    <img
+                      alt=''
+                      src='https://img.icons8.com/ios/75/000000/trust.png'
+                    />
                   </div>
                 </div>
               </div>

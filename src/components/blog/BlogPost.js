@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import bloglist from '../../editable-stuff/blog';
 
 const BlogPost = ({ match }) => {
@@ -9,7 +9,7 @@ const BlogPost = ({ match }) => {
     <div className='container-lg mt-5'>
       {post && (
         <div>
-          <h1 className='display-2 text-center'>{post.title}</h1>
+          <h1 className='display-2 text-center'>{post.title}hi</h1>
           <img className='img-fluid mb-2' src={post.image} alt={post.title} />
           {post.getBlog()}
         </div>

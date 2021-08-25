@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 // import Pdf from '../../editable-stuff/Ana Ashrafi - Resume 2020.pdf';
 import Profile from '../../editable-stuff/Profile.jpg';
 

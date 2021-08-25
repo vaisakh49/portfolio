@@ -1,5 +1,6 @@
-import React, { useState, Fragment } from 'react';
-import { BlogBuilder } from './BlogBuilder';
+// import React, { useState, Fragment } from 'react';
+import React from 'react';
+// import { BlogBuilder } from './BlogBuilder';
 import bloglist from '../../editable-stuff/blog';
 import { Link } from 'react-router-dom';
 
@@ -21,7 +22,7 @@ export const Blog = (props) => {
   );
 };
 
-export const BlogCard = ({ index, title, image, description }) => {
+export const BlogCard = ({ index, title, description }) => {
   return (
     <div className='m-5'>
       <div className=''>

@@ -19,10 +19,14 @@ const Interests = () => {
                 <p className='lead text-center' style={{ fontSize: '28px' }}>
                   Meditation
                 </p>
-                <img src='https://img.icons8.com/nolan/128/light.png' />
+                <img alt='' src='https://img.icons8.com/nolan/128/light.png' />
                 <p className='lead text-center'>
                   Every morning, I begin my day with{' '}
-                  <a href='https://www.headspace.com/' target='_blank'>
+                  <a
+                    href='https://www.headspace.com/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     Headspace
                   </a>
                   . I started meditating about one year ago and have learned how
@@ -35,7 +39,10 @@ const Interests = () => {
                 <p className='lead text-center' style={{ fontSize: '28px' }}>
                   Reading
                 </p>
-                <img src='https://img.icons8.com/nolan/128/saving-book.png' />
+                <img
+                  alt=''
+                  src='https://img.icons8.com/nolan/128/saving-book.png'
+                />
                 <p className='lead text-center'>
                   I had never been much of a reader until this year. When
                   quarantine started, I thought it'd be a great opportunity to
@@ -55,7 +62,10 @@ const Interests = () => {
                 <p className='lead text-center' style={{ fontSize: '28px' }}>
                   Soccer
                 </p>
-                <img src='https://img.icons8.com/nolan/128/football2.png' />
+                <img
+                  alt=''
+                  src='https://img.icons8.com/nolan/128/football2.png'
+                />
                 <p className='lead text-center'>
                   I first picked up a soccer ball when I was 4 years old and
                   have played the beautiful game since. I played competitively
@@ -68,7 +78,7 @@ const Interests = () => {
                 <p className='lead text-center' style={{ fontSize: '28px' }}>
                   Food
                 </p>
-                <img src='https://img.icons8.com/nolan/128/meal.png' />
+                <img alt='' src='https://img.icons8.com/nolan/128/meal.png' />
                 <p className='lead text-center'>
                   I am a big foodie! Growing up with a mom who cooks the best
                   Persian food, I fell in love with food at an early age. I'm
