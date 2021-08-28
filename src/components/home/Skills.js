@@ -42,7 +42,7 @@ const Skills = () => {
                   <p className='lead'>
                     HTML5
                     <ProgressBar
-                      now={87}
+                      now={90}
                       // style={
                       //   (isMob ? { width: '90px' } : { width: '190px ' },
                       //   { backgroundColor: 'gray' })
@@ -52,14 +52,14 @@ const Skills = () => {
                   <p className='lead'>
                     CSS3
                     <ProgressBar
-                      now={70}
+                      now={75}
                       // style={{ width: '490px', backgroundColor: 'white' }}
                     />
                   </p>
                   <p className='lead'>
                     Javascript
                     <ProgressBar
-                      now={60}
+                      now={78}
                       // style={{ width: '490px', backgroundColor: 'white' }}
                     />
                   </p>
@@ -70,7 +70,7 @@ const Skills = () => {
                   <p className='lead'>
                     React js
                     <ProgressBar
-                      now={85}
+                      now={78}
                       // style={{ width: '490px', backgroundColor: 'white' }}
                     />
                   </p>
@@ -78,14 +78,14 @@ const Skills = () => {
                   <p className='lead'>
                     Node/Express
                     <ProgressBar
-                      now={75}
+                      now={60}
                       // style={{ width: '490px', backgroundColor: 'white' }}
                     />
                   </p>
                   <p className='lead'>
                     Git/Github
                     <ProgressBar
-                      now={70}
+                      now={85}
                       // style={{ width: '490px', backgroundColor: 'white' }}
                     />
                   </p>

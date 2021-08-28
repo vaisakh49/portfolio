@@ -1,5 +1,5 @@
-import React from 'react';
-// import Pdf from '../../editable-stuff/Ana Ashrafi - Resume 2020.pdf';
+import React, { useState } from 'react';
+import Pdf from '../../editable-stuff/vaisakh.pdf';
 import Profile from '../../editable-stuff/Profile.jpg';
 
 import {
@@ -8,7 +8,7 @@ import {
 } from '../../editable-stuff/configurations.json';
 
 const AboutMe = () => {
-  // const [resume] = useState(Pdf);
+  const [resume] = useState(Pdf);
 
   return (
     <div
@@ -31,20 +31,19 @@ const AboutMe = () => {
             <h1 className='display-4 mb-5 text-center '>{aboutHeading}</h1>
             <p className='lead text-center'>{aboutDescription}</p>
             <br />
-            {/* {resume && ( */}
-            <p className='lead text-center'>
-              <a
-                className='btn btn-outline-dark btn-lg'
-                href='#!'
-                // {Pdf}
-                target='_blank'
-                rel='noreferrer noopener'
-                role='button'
-              >
-                Resume
-              </a>
-            </p>
-            {/* )} */}
+            {resume && (
+              <p className='lead text-center'>
+                <a
+                  className='btn btn-outline-dark btn-lg'
+                  href={Pdf}
+                  target='_blank'
+                  rel='noreferrer noopener'
+                  role='button'
+                >
+                  Resume
+                </a>
+              </p>
+            )}
           </div>
         </div>
       </div>

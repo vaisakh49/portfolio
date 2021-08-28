@@ -21,7 +21,7 @@ const Interests = () => {
                 </p>
                 <img alt='' src='https://img.icons8.com/nolan/128/light.png' />
                 <p className='lead text-center'>
-                  Every morning, I begin my day with{' '}
+                  {/* Every morning, I begin my day with{' '}
                   <a
                     href='https://www.headspace.com/'
                     target='_blank'
@@ -33,6 +33,11 @@ const Interests = () => {
                   to be more focused, mindful, and relaxed. So far, I've
                   meditated for a total of 1,385 minutes, and I am continuing to
                   grow this number every day!
+                   */}
+                  Every morning, I start my day with meditation. From the moment
+                  I started coding I started to meditate and learned how to
+                  focus and relax more. As my mind begins to calm down the day
+                  begins I can come up with new ideas.
                 </p>
               </div>
               <div className='col text-center'>
@@ -44,11 +49,12 @@ const Interests = () => {
                   src='https://img.icons8.com/nolan/128/saving-book.png'
                 />
                 <p className='lead text-center'>
-                  I had never been much of a reader until this year. When
-                  quarantine started, I thought it'd be a great opportunity to
-                  get into reading and find books I really enjoy. I've read 7
-                  books since March and can't wait to read more. Check out what
-                  I've been reading on{' '}
+                  I have been a reader since I was young. I love reading stories
+                  because it takes us to another world. No one in that world can
+                  stop our imagination. I still try to find good books to read.
+                  It helps to calm my mind. I am very interested in teaching
+                  others what I have learned, which helps me to learn more about
+                  that subject.
                   {/* <a
                     href='https://www.goodreads.com/ana_ashrafi'
                     target='_blank'
@@ -67,11 +73,10 @@ const Interests = () => {
                   src='https://img.icons8.com/nolan/128/football2.png'
                 />
                 <p className='lead text-center'>
-                  I first picked up a soccer ball when I was 4 years old and
-                  have played the beautiful game since. I played competitively
-                  for FC Dallas, while also playing for my high school soccer
-                  team. In college, I play intramural soccer and frequently look
-                  for pick-up games to play!
+                  Playing football is one of the habits from a young age.
+                  Although I can not say that I am a good player, but it makes
+                  me very happy when I play football. There is nothing happier
+                  than playing with friends.
                 </p>
               </div>
               <div className='col text-center'>
@@ -80,11 +85,10 @@ const Interests = () => {
                 </p>
                 <img alt='' src='https://img.icons8.com/nolan/128/meal.png' />
                 <p className='lead text-center'>
-                  I am a big foodie! Growing up with a mom who cooks the best
-                  Persian food, I fell in love with food at an early age. I'm
-                  currently working on a cookbook of all my mom's original
-                  recipes and am learning more about cooking too. I love trying
-                  new restaurants and recipes!
+                  I'm not a foodie but I'm still excited to discover new
+                  flavors. The pleasure of discovering and eating new flavors is
+                  something else. I'm still a person who likes to share my
+                  favorite food, and that makes me happy.
                 </p>
               </div>
             </div>

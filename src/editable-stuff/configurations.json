@@ -5,7 +5,7 @@
   "FirstName": "Vaisakh",
   "MiddleName": "",
   "LastName": "TP",
-  "devDesc": "Passionate about changing the world with technology.",
+  "devDesc": "Im a full-stack web developer.",
   "icons": [
     {
       "id": 0,
@@ -37,12 +37,12 @@
   "instaLink": "https://www.instagram.com/",
   "instaUsername": "vaisakh.tp",
   "instaQuerry": "/?__a=1",
-  "aboutDescription": "Hello! My name is Vaishakh and I am a Software Engineer from Calicut University, Kerala. I graduated in June 2020 with a degree in computer application. I have always been interested in learning and applying new technologies and I look forward to my next step. I want to give something back to the community, and my goal is to pursue this passion within the field of software engineering!",
+  "aboutDescription": "Hello, I am a MERN stack developer residing in kerala, india. I am focused on building projectsthat are aesthetically pleasing and equally usable. I graduated in June 2020 with a degree in computer application from Calicut university. I have always been interested in learning and applying new technologies and that keeps my mind alive and I lookforward to my next step.",
   "projectHeading": "Recent Projects",
   "gitHubLink": "https://api.github.com/users/",
   "gitHubUsername": "vaisakh49",
   "gitHubQuerry": "/repos?sort=updated&direction=desc",
   "projectsLength": 6,
   "showNavigationbar": true,
-  "showBlog": true
+  "showBlog": false
 }

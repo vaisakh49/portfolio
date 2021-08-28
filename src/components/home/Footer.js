@@ -14,7 +14,7 @@ const Footer = () => {
         <div className='d-inline align-self-center'>
           <h2 className='display-4 pb-3 text-center'>Get In Touch</h2>
           <p className='lead text-center' style={{ fontSize: '22px' }}>
-            I'm currently looking for full-time Software Engineering
+            I'm currently looking for full-time Software Developing
             opportunities! If you know of any positions available, have any
             questions, or just want to say hi, please feel free to email me at
             <a href='mailto:vaisakhtp133@gmail.com'> vaisakhtp133@gmail.com</a>
